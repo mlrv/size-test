@@ -1,0 +1,17 @@
+[
+  {
+    "path": "./dist/main.js",
+    "running": false,
+    "gzip": false
+  },
+  {
+    "path": "./dist/main.js",
+    "running": false,
+    "gzip": true
+  },
+  {
+    "path": "./dist/main.js",
+    "running": false,
+    "brotli": true
+  }
+]
