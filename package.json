@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "size": "npm run build && size-limit"
+    "size-build": "npm run build && size-limit"
   },
   "author": "",
   "license": "ISC",
