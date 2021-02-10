@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: forked
-        uses: ./forked/action
+        uses: ./forked
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           build_script: build
